@@ -4,7 +4,7 @@ require './lib/student'
 
 RSpec.describe Course do
   before(:each) do
-    @course = course = Course.new("Calculus", 2)
+    @course = Course.new("Calculus", 2)
     @student_1 = Student.new({name: "Morgan", age: 21})
     @student_2 = Student.new({name: "Jordan", age: 29})
   end
